@@ -10,12 +10,6 @@ header.ids__wrapper.main-wrapper
     ul
       li
         a(aria-current!='{ ariaCurrent("/") }', href="/") Main
-      li
-        a(aria-current!='{ ariaCurrent("/ids/") }', href="/ids") IDS Demo
-      li
-        a(aria-current!='{ ariaCurrent("/foo/") }', href="/foo") Foo
-      li
-        a(aria-current!='{ ariaCurrent("/bar/") }', href="/bar") Bar
 
 </template>
 
