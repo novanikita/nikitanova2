@@ -5,11 +5,11 @@
 </script>
 
 <template lang="pug">
-header.ids__wrapper.main-wrapper
-  nav
-    ul
-      li
-        a(aria-current!='{ ariaCurrent("/") }', href="/") Main
+//- header.ids__wrapper.main-wrapper
+//-   nav
+//-     ul
+//-       li
+//-         a(aria-current!='{ ariaCurrent("/") }', href="/") Main
 
 </template>
 
