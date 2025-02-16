@@ -14,6 +14,9 @@ ids-gallery, .ids__gallery {
         --gap: 0.4em;
     }
     
+    &.about{
+        --columns: 5; 
+    }
 
     figure {
         flex: 0 0 calc((100% - var(--gap) * (var(--columns) - 1)) / var(--columns));
