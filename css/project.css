@@ -37,7 +37,7 @@ header {
 }
 
 .main-page-header {
-  width: 50%;
+  width: 60%;
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -213,7 +213,6 @@ footer {
   @media (min-width: 500px) {
     flex-wrap: wrap;
     height: 100%;
-    width: 100%;
     padding: 0.5em;
     }
 
