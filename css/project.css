@@ -249,3 +249,37 @@ footer {
 .main-page-nav {
     width: 12em;
 }
+
+.table {
+    position: relative;
+    overflow: scroll;
+    font-size: 1em;
+    border-bottom: 1px solid rgba(var(--ids__text-RGB), 0.15);
+
+    thead {
+      tr {
+        th {
+          text-align: left;
+          padding-left: 0em;
+          position: sticky;
+          background: #ededed;
+          top: 0;
+        }
+      }
+    }
+    tbody {
+      tr {
+        transition: background-color 0.25s ease;
+
+        &:hover {
+          background-color: #d4d4d4;
+          transition: background-color 0.1s ease;
+        }
+
+        td {
+          padding: 0.35em 0.5em 1.4em 0em;
+          vertical-align: top;
+        }
+      }
+    }
+  }
